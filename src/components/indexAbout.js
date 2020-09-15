@@ -5,7 +5,7 @@ import heroImage from '../images/hridoyProfile.png'
 
 const indexAbout = (props) => (
   <section className="hero is-medium primaryColor">
-    <div className="hero-body">
+    <div className="hero-body py-6">
       <div className="container">
         <div className="columns has-text-white Customflex">
           <div className="column is-full-mobile fontHero">
