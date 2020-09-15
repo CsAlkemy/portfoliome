@@ -1,16 +1,13 @@
 import React from 'react';
 
 import './style.scss';
-import Helmet from './helmet';
-import Header from './header';
-import Midsection from './midsection';
 import Footer from './footer';
+import Navbar from './navbar';
 
-const Layout = ({ children }) => (
+const Layout = (props) => (
 	<div>
-		<Helmet />
-		<Header />
-		<Midsection />
+		<Navbar />
+		{props.children}
 		<Footer />
 	</div>
 );

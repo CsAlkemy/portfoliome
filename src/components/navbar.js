@@ -1,41 +1,60 @@
-import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+import React from "react";
+import { FaGithub } from "react-icons/fa";
 
-import './style.scss';
-import gatsbyLogo from '../images/gatsby-icon.png';
-import bulmaLogo from '../images/bulma-logo.png';
+import "./style.scss";
+import { Link } from "gatsby";
 
 const Navbar = () => (
-	<div className="hero-head is-hidden-mobile">
-		<nav className="navbar">
-			<div className="container">
-				<div className="navbar-brand">
-					<a
-						className="navbar-item"
-						href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-					>
-						<img src={gatsbyLogo} alt="Logo-1" />
-						<img src={bulmaLogo} alt="Logo-2" />
-					</a>
-				</div>
-				<div id="navbarMenuHeroA" className="navbar-menu">
-					<div className="navbar-end">
-						<span className="navbar-item">
-							<a
-								className="button is-danger is-inverted"
-								href="https://github.com/amandeepmittal/gatsby-bulma-quickstart"
-							>
-								<span className="icon">
-									<FaGithub size="fa-2x" />
-								</span>
-								<span>Download</span>
-							</a>
-						</span>
-					</div>
-				</div>
-			</div>
-		</nav>
-	</div>
+  <nav
+    className="navbar"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div className="container">
+      <div className="navbar-brand">
+        <Link className="navbar-item " to="/">
+          <h1 className="heroFont">Alkemy Hossain</h1>
+        </Link>
+        <Link
+          role="button"
+          className="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </Link>
+      </div>
+      <div id="navbarBasicExample" className="navbar-menu">
+        <div className="navbar-end">
+          <Link className="navbar-item" to="/">
+            Home
+          </Link>
+          <Link className="navbar-item" to="/project">
+            Project
+          </Link>
+          <div className="navbar-item has-dropdown is-hoverable">
+            <Link className="navbar-link">Research</Link>
+          </div>
+          <Link className="navbar-item" to="/blog">
+            Blog
+          </Link>
+          <Link className="navbar-item" to="/contact">
+            Contact
+          </Link>
+          <div className="navbar-item">
+            <div className="">
+              <a className="button is-dark">
+                <FaGithub></FaGithub>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 );
 
 export default Navbar;

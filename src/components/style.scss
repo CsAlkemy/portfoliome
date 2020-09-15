@@ -9,10 +9,36 @@
 	background: linear-gradient(to right, $primary-color, $secondary-color);
 }
 
+.primaryColor{
+	background: #222639;
+}
+
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.heroFont{
+	font-size: 25px;
+	font-weight: 200;
+	color: white;
+	word-spacing: 5px;
+	letter-spacing: 7px;
+}
+.fontHero{
+	font-size: 55px;
+	font-weight: 300;
+	margin-left: 30px;
+}
+.round1{
+	border-radius: 0.25rem;
+	color: black;
+}
+.imagehero{
+	border-radius: 50rem;
+	width: 380px;
+	height: 380px;
+	margin-left: 20px;
 }
 
 .footer {
@@ -26,4 +52,12 @@
 	a:hover {
 		color: $secondary-color;
 	}
+}
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+	.imagehero{
+		display: none;
+	}
+  
 }
