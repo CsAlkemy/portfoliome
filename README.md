@@ -2,11 +2,7 @@
 
 > A Quick Way to bootstrap your next Gatsby + Bulma site.
 
-![ss](https://i.imgur.com/Vz81GEl.png)
-
 ## Demo 💯
-
-- [Demo Link](https://tender-raman-99e09b.netlify.com/)
 
 ## Features 🚀
 
@@ -32,7 +28,6 @@ You need npm and Gatsby CLI installed on your development machine.
 
 If you have Git installed on your system you can run the following command:
 
-`git clone https://github.com/amandeepmittal/gatsby-bulma-quickstart.git`
 
 Otherwise you can directly download it clicking on download button on this repository.
 
@@ -66,7 +61,5 @@ resolve: `gatsby-plugin-google-analytics`,
 ## Contact me
 
 If you find any possible improvement or suggestion related to code or UI/UX please contribute by submitting a PR.
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A611K61)
 
 **Happy Coding!** 🎉🎉
