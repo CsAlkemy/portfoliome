@@ -8,8 +8,8 @@ const indexAbout = (props) => (
     <div className="hero-body py-6">
       <div className="container">
         <div className="columns has-text-white Customflex">
-          <div className="column is-full-mobile fontHero">
-            <h1 className="">Hello, I&apos;m Alkemy Hossain. I build things for the web.</h1>
+          <div className="column is mobile fontHero">
+            <h1 className="">Hi, I&apos;m Alkemy Hossain. I build things for the web.</h1>
           </div>
           <div className="column">
             <figure>
