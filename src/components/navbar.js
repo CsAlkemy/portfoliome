@@ -5,11 +5,7 @@ import "./style.scss";
 import { Link } from "gatsby";
 
 const Navbar = () => (
-  <nav
-    className="navbar"
-    role="navigation"
-    aria-label="main navigation"
-  >
+  <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="container">
       <div className="navbar-brand">
         <Link className="navbar-item " to="/">
@@ -35,9 +31,10 @@ const Navbar = () => (
           <Link className="navbar-item" to="/project">
             Project
           </Link>
-          <div className="navbar-item has-dropdown is-hoverable">
-            <Link className="navbar-link">Research</Link>
-          </div>
+          <Link className="navbar-item" to="/">
+            Research
+          </Link>
+
           <Link className="navbar-item" to="/blog">
             Blog
           </Link>
@@ -46,9 +43,14 @@ const Navbar = () => (
           </Link>
           <div className="navbar-item">
             <div className="">
-              <i className="button is-dark">
+              <a
+                className="button is-dark"
+                href="https://github.com/CsAlkemy"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub></FaGithub>
-              </i>
+              </a>
             </div>
           </div>
         </div>

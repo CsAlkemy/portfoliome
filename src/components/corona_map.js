@@ -5,6 +5,8 @@ import coronaBanner from "../images/banner/corona.png";
 
 import { FaNodeJs, FaReact, FaDatabase } from "react-icons/fa";
 
+import { FaGithub } from "react-icons/fa";
+import { BiLinkExternal } from "react-icons/bi";
 
 const corona_map = (props) => (
   <div className="card mt-4 card_Style">
@@ -19,9 +21,35 @@ const corona_map = (props) => (
         </div>
         <div className="column is-full-mobile">
           <div className="media-content">
-            <p className="title is-4 has-text-white">Corona On Map</p>
-            <p className="title is-6 has-text-white">
-              corona is for helping business...
+            <div className="is-flex">
+              <p className="title is-4 has-text-white">
+                Corona Map &nbsp; &nbsp;
+              </p>
+              <a
+                className="button is-light is-small"
+                href="https://github.com/CsAlkemy/corona19"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub></FaGithub>
+              </a>
+              &nbsp; &nbsp;
+              <a
+                className="button is-light is-small"
+                href="https://coronavirus-map-dashboard.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BiLinkExternal />
+              </a>
+            </div>
+            <p className="title is-6 has-text-white has-text-weight-light">
+              I build this web app to show Covid 19 status on map. Tried to
+              follow the trend lol!
+            </p>
+            <p className=" title is-7 has-text-success has-text-weight-light px-0">
+              {" "}
+              August 2020{" "}
             </p>
             <div className="field is-grouped is-grouped-multiline">
               <div className="control">

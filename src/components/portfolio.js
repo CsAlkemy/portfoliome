@@ -1,12 +1,13 @@
 import React from "react";
 
-
 import "./style.scss";
 import Portfolio from "../images/banner/portfolio.png";
 import { SiGatsby, SiBulma, SiGraphql, SiNetlify } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+import { BiLinkExternal } from "react-icons/bi";
 
 const portfolio_me = (props) => (
-    <div className="card mt-4 card_Style">
+  <div className="card mt-4 card_Style">
     <div className="card-content">
       <div className="columns">
         <div className="column is-4 is-full-mobile">
@@ -18,9 +19,34 @@ const portfolio_me = (props) => (
         </div>
         <div className="column is-full-mobile">
           <div className="media-content">
-            <p className="title is-4 has-text-white">Porfolio site</p>
-            <p className="title is-6 has-text-white">
-              This site...
+            <div className="is-flex">
+              <p className="title is-4 has-text-white">
+                Portfolio Website &nbsp; &nbsp;
+              </p>
+              <a
+                className="button is-light is-small"
+                href="https://github.com/CsAlkemy/portfoliome"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub></FaGithub>
+              </a>
+              &nbsp; &nbsp;
+              <a
+                className="button is-light is-small"
+                href="https://alkemyme.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BiLinkExternal />
+              </a>
+            </div>
+            <p className="title is-6 has-text-white has-text-weight-light">
+              This site...This site is always under construction, just like me.
+            </p>
+            <p className=" title is-7 has-text-success has-text-weight-light px-0">
+              {" "}
+              Since September 2020{" "}
             </p>
 
             <div className="field is-grouped is-grouped-multiline">

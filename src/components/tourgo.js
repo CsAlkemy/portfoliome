@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.scss";
 import tourgo from "../images/banner/tourgo.png";
-import { FaNodeJs, FaDog } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 
@@ -19,9 +19,16 @@ const tourgo_Project = (props) => (
         </div>
         <div className="column is-full-mobile">
           <div className="media-content">
-            <p className="title is-4 has-text-white">Tourgo</p>
-            <p className="title is-6 has-text-white">
-              Tourgo is for helping business...
+            <div className="is-flex">
+              <p className="title is-4 has-text-white">Tourgo &nbsp; &nbsp;</p>
+            </div>
+            <p className="title is-6 has-text-white has-text-weight-light">
+              Tourgo is a web application for booking or renting hotel rooms and
+              tour packages.
+            </p>
+            <p className=" title is-7 has-text-success has-text-weight-light px-0">
+              {" "}
+              Since Sept 19{" "}
             </p>
 
             <div className="field is-grouped is-grouped-multiline">
@@ -46,14 +53,6 @@ const tourgo_Project = (props) => (
                   <span className="tag is-black">MongoDB</span>
                   <span className="tag is-normal">
                     <DiMongodb />
-                  </span>
-                </div>
-              </div>
-              <div className="control">
-                <div className="tags has-addons is-normal">
-                  <span className="tag is-black">PugJs</span>
-                  <span className="tag is-primary">
-                    <FaDog />
                   </span>
                 </div>
               </div>

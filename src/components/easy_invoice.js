@@ -20,9 +20,17 @@ const easy_invoiceProject = (props) => (
         </div>
         <div className="column is-full-mobile">
           <div className="media-content">
-            <p className="title is-4 has-text-white">Easy Invoice</p>
-            <p className="title is-6 has-text-white">
-              Easy invoice is for helping business...
+          <div className="is-flex">
+              <p className="title is-4 has-text-white">
+                Easy Invoice
+              </p>
+            </div>
+            <p className="title is-6 has-text-white has-text-weight-light">
+              An invoice system for shop to keep track of their sales.
+            </p>
+            <p className=" title is-7 has-text-success has-text-weight-light px-0">
+              {" "}
+              July 19 to September 19{" "}
             </p>
             <div className="field is-grouped is-grouped-multiline">
               <div className="control">
