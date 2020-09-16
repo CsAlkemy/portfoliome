@@ -1,28 +1,27 @@
 import React from "react";
 
 import "./style.scss";
-import Invoice from "../images/banner/invoice.png";
+import coronaBanner from "../images/banner/corona.png";
 
-import { FaNodeJs, FaDog } from "react-icons/fa";
-import { DiMongodb } from "react-icons/di";
-import { SiTypescript } from "react-icons/si";
+import { FaNodeJs, FaReact, FaDatabase } from "react-icons/fa";
 
-const easy_invoiceProject = (props) => (
+
+const corona_map = (props) => (
   <div className="card mt-4 card_Style">
     <div className="card-content">
       <div className="columns">
         <div className="column is-4 is-full-mobile">
           <div className="card-content">
             <figure>
-              <img src={Invoice} alt="project one banner"></img>
+              <img src={coronaBanner} alt="project corona banner"></img>
             </figure>
           </div>
         </div>
         <div className="column is-full-mobile">
           <div className="media-content">
-            <p className="title is-4 has-text-white">Easy Invoice</p>
+            <p className="title is-4 has-text-white">Corona On Map</p>
             <p className="title is-6 has-text-white">
-              Easy invoice is for helping business...
+              corona is for helping business...
             </p>
             <div className="field is-grouped is-grouped-multiline">
               <div className="control">
@@ -35,25 +34,17 @@ const easy_invoiceProject = (props) => (
               </div>
               <div className="control">
                 <div className="tags has-addons is-normal">
-                  <span className="tag is-black">TypeScript</span>
+                  <span className="tag is-black">React</span>
                   <span className="tag is-info">
-                    <SiTypescript />
+                    <FaReact />
                   </span>
                 </div>
               </div>
               <div className="control">
                 <div className="tags has-addons is-normal">
-                  <span className="tag is-black">MongoDB</span>
+                  <span className="tag is-black">REST API</span>
                   <span className="tag is-normal">
-                    <DiMongodb />
-                  </span>
-                </div>
-              </div>
-              <div className="control">
-                <div className="tags has-addons is-normal">
-                  <span className="tag is-black">PugJs</span>
-                  <span className="tag is-primary">
-                    <FaDog />
+                    <FaDatabase />
                   </span>
                 </div>
               </div>
@@ -65,4 +56,4 @@ const easy_invoiceProject = (props) => (
   </div>
 );
 
-export default easy_invoiceProject;
+export default corona_map;
