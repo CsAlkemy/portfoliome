@@ -46,9 +46,9 @@ const Navbar = () => (
           </Link>
           <div className="navbar-item">
             <div className="">
-              <a className="button is-dark">
+              <i className="button is-dark">
                 <FaGithub></FaGithub>
-              </a>
+              </i>
             </div>
           </div>
         </div>

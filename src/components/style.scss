@@ -51,6 +51,10 @@
 	border-radius: 1rem;
 	background: rgba(0,128,238,0.07);
 }
+.customImage{
+	height: 250px;
+	width: 290px;
+}
 
 .footer {
 	display: flex;
@@ -69,6 +73,10 @@ $breakpoint-tablet: 768px;
 @media (max-width: $breakpoint-tablet) {
 	.imagehero{
 		display: none;
+	}
+	.customImage{
+		width: 90px;
+		height: 90px;
 	}
   
 }

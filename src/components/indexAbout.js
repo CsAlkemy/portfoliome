@@ -13,7 +13,7 @@ const indexAbout = (props) => (
           </div>
           <div className="column">
             <figure>
-              <img src={heroImage}  className="imagehero">
+              <img src={heroImage}  className="imagehero" alt="main profile  of alkemy">
               </img>
             </figure>
           </div>
