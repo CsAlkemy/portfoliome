@@ -63,6 +63,6 @@ resolve: `gatsby-plugin-google-analytics`,
 If you find any possible improvement or suggestion related to code or UI/UX please contribute by submitting a PR.
 
 ## Demo
-https://alkemy.me.netlify.app/
+https://alkemyme.netlify.app/
 
 **Happy Coding!** 🎉🎉
