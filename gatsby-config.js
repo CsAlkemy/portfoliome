@@ -1,16 +1,16 @@
 module.exports = {
 	siteMetadata: {
-		title: 'Gatsby Bulma Quickstart',
+		title: 'Alkemy Hossain',
 		author: 'Alkemy Hossain',
 		imageUrl: 'https://i.imgur.com/Vz81GEl.png',
-		description: 'A Project to bootstrap your next Gatsby + Bulma site.',
-		keywords: `Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
+		description: 'Hi, I am Alkemy Hossain working in software industry for couple of years. I build build this website as my portfolio to write blog or showcase my projects ',
+		keywords: ` Alkemy Hossain, Alkemy, alkemy, Hossain, hossain, iubat, IUBAT, dev heros, Web developer, Web, Developer, CSS, HTML, JS, Javascript, Gatsby, Bulma Developer, CSS3, HTML5, Seo, Starter`,
 		twitter: 'https://twitter.com/dev_heros',
 		github: `https://github.com/csalkemy`,
 		medium: 'https://medium.com/@alkemy',
 		gatsby: 'https://www.gatsbyjs.org/',
 		bulma: 'https://bulma.io/',
-		siteUrl: `https://www.example.com`
+		siteUrl: `https://alkemyme.netlify.app/`
 	},
 	plugins: [
 		'gatsby-plugin-react-helmet',
