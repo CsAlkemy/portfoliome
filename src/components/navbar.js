@@ -23,7 +23,7 @@ const Navbar = () => (
           <span aria-hidden="true"></span>
         </Link>
       </div>
-      <div id="navbarBasicExample" className="navbar-menu">
+      <div id="navbarBasicExample" className="navbar-menu is-active">
         <div className="navbar-end">
           <Link className="navbar-item" to="/">
             Home
