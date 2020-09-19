@@ -13,11 +13,11 @@
 	background: #222639;
 }
 
-.card{
+.cardShadow{
 	-webkit-transition: all 0.6s;
     transition: all 0.6s;
 }
-.card:hover {
+.cardShadow:hover {
     box-shadow: 0 2px 15px 0 rgb(0, 230, 118);}
 .center {
 	display: flex;
@@ -57,9 +57,20 @@
 	border-radius: 0.5rem;
 	background: rgba(0,128,238,0.07);
 }
+.card_Research{
+	border-radius: 0.5rem;
+}
 .customImage{
 	height: 250px;
 	width: 290px;
+}
+.card_Research2{
+	border-radius: 1.0rem;
+	margin-bottom: 20px;
+}
+
+.common_colour{
+	background: rgba(0,128,238,0.07);
 }
 
 

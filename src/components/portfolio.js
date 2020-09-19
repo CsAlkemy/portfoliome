@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { BiLinkExternal } from "react-icons/bi";
 
 const portfolio_me = (props) => (
-  <div className="card mt-4 card_Style">
+  <div className="card mt-4 card_Style cardShadow">
     <div className="card-content">
       <div className="columns">
         <div className="column is-4 is-full-mobile">

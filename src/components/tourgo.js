@@ -7,7 +7,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 
 const tourgo_Project = (props) => (
-  <div className="card mt-4 card_Style p-0">
+  <div className="card mt-4 card_Style p-0 cardShadow">
     <div className="card-content">
       <div className="columns">
         <div className="column is-4 is-full-mobile">

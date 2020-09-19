@@ -8,7 +8,7 @@ import { DiMongodb } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 
 const easy_invoiceProject = (props) => (
-  <div className="card mt-4 card_Style">
+  <div className="card mt-4 card_Style cardShadow">
     <div className="card-content">
       <div className="columns">
         <div className="column is-4 is-full-mobile">

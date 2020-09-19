@@ -5,7 +5,7 @@ import "./style.scss";
 const contact_form = (props) => (
   <div className="box card_Style has-text-white">
     <p className="title is-4 has-text-white is-uppercase">Send Quries</p>
-    <form name="contact" method="POST" data-netlify="true">
+    <form  method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact" action="/">
       <div className="control">
         <input className="input" type="text" name="name" placeholder="Name" />
       </div>
