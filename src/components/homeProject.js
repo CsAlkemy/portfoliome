@@ -34,7 +34,7 @@ const homeProject = (props) => (
             <Zoom />
           </div>
         </div>
-        <div className="columns">
+        <div className="columns mb-5">
           <div className="column is-full-mobile is-half-tablet is-half-desktop">
             <Portfolio />
           </div>
