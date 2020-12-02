@@ -9,68 +9,99 @@
 	background: linear-gradient(to right, $primary-color, $secondary-color);
 }
 
-.primaryColor{
+.primaryColor {
 	background: #222639;
 }
 
-.cardShadow{
+.cardShadow {
 	-webkit-transition: all 0.6s;
-    transition: all 0.6s;
+	transition: all 0.6s;
 }
+
 .cardShadow:hover {
-    box-shadow: 0 2px 15px 0 rgb(0, 230, 118);}
+	box-shadow: 0 2px 15px 0 rgb(0, 230, 118);
+}
+
 .center {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.heroFont{
+
+.heroFont {
 	font-size: 25px;
 	font-weight: 200;
 	color: white;
 	word-spacing: 5px;
 	letter-spacing: 7px;
 }
-.fontHero{
+
+.fontHero {
 	font-size: 55px;
 	font-weight: 300;
 }
-.round1{
+
+.round1 {
 	border-radius: 0.25rem;
 	color: black;
 }
-.imagehero{
+
+.imagehero {
 	border-radius: 50rem;
 	width: 380px;
 	height: 380px;
 	margin-left: 20px;
 }
-.projectMargin{
+
+.projectMargin {
 	margin-top: 0px;
 	padding-top: 0px;
 }
-.card-imageCustom{
+
+.card-imageCustom {
 	height: 200px;
 	width: 200px;
 }
-.card_Style{
+
+.card_Style {
 	border-radius: 0.5rem;
-	background: rgba(0,128,238,0.07);
+	background: rgba(0, 128, 238, 0.07);
 }
-.card_Research{
+
+.card_Research {
 	border-radius: 0.5rem;
 }
-.customImage{
+
+.customImage {
 	height: 250px;
 	width: 290px;
 }
-.card_Research2{
+
+.card_Research2 {
 	border-radius: 1.0rem;
 	margin-bottom: 20px;
 }
 
-.common_colour{
-	background: rgba(0,128,238,0.07);
+.common_colour {
+	background: rgba(0, 128, 238, 0.07);
+}
+
+.tab-list {
+	border-bottom: 1px solid #ccc;
+	padding-left: 0;
+}
+
+.tab-list-item {
+	display: inline-block;
+	list-style: none;
+	margin-bottom: -1px;
+	padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+	background-color: white;
+	border: solid #ccc;
+	border-width: 1px 1px 0 1px;
 }
 
 
@@ -78,23 +109,53 @@
 	display: flex;
 	padding: 1.5rem 1.5rem;
 	line-height: 1.5rem;
+
 	a {
 		border-bottom: 1px solid;
 		color: black;
 	}
+
 	a:hover {
 		color: $secondary-color;
 	}
 }
 
 $breakpoint-tablet: 768px;
+
 @media (max-width: $breakpoint-tablet) {
-	.imagehero{
+	.imagehero {
 		display: none;
 	}
-	.customImage{
+
+	.customImage {
 		width: 90px;
 		height: 90px;
 	}
-  
+
+}
+
+.NavLink_Mood {
+
+	color: #fff;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	height: 100%;
+
+	&:hover {
+		color: #ffffff;
+	}
+
+	@media screen and (max-width: 960px) {
+		text-align: center;
+		padding: 2rem;
+		width: 100%;
+		display: table;
+
+		&:hover {
+			color: #4b59f7;
+			transition: all 0.3s ease;
+		}
+	}
 }

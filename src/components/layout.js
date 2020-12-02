@@ -2,13 +2,13 @@ import React from 'react';
 
 import './style.scss';
 import Footer from './footer';
-import Navbar from './navbar';
+import Navbar2 from './Navbar/Navbar';
 import Helmet from './helmet';
 
 const Layout = (props) => (
 	<div>
 		<Helmet />
-		<Navbar />
+		<Navbar2 />
 		{props.children}
 		<Footer />
 	</div>

@@ -18,6 +18,7 @@ const contact_form = (props) => (
           type="text"
           name="message"
           placeholder="Message"
+          required
         />
       </div>
       <div className='control'>

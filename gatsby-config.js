@@ -12,6 +12,7 @@ module.exports = {
 		bulma: 'https://bulma.io/',
 		siteUrl: `https://alkemyme.netlify.app/`
 	},
+	plugins: [`gatsby-plugin-styled-components`],
 	plugins: [
 		'gatsby-plugin-react-helmet',
 		{
@@ -36,6 +37,7 @@ module.exports = {
 				orientation: 'portrait'
 			}
 		},
+		
 		`gatsby-plugin-sass`,
 		{
 			resolve: `gatsby-plugin-google-analytics`,
