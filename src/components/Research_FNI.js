@@ -33,7 +33,7 @@ const researchFNI = (props) => (
                   a team member my responsibility was to work on the dataset and
                   ML model.
                 </p>
-                <a href={pdf} download class="button is-primary has-text-black" >Download Paper</a>
+                <a href={pdf} download className="button is-primary has-text-black" >Download Paper</a>
               </div>
             </div>
           </div>

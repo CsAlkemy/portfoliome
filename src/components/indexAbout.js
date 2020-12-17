@@ -12,7 +12,7 @@ const indexAbout = (props) => (
           <div className="column is mobile">
             <h1 className="fontHero">Hi, I&apos;m Alkemy Hossain. I build things for the web.</h1>
             <p>I have been working on software field for more then one year and develop user interective web application to fulfill organization's needs. </p>
-            <a href={Resume} download class="button is-primary has-text-black mt-5" >Download Resume</a>
+            <a href={Resume} download className="button is-primary has-text-black mt-5" >Download Resume</a>
           </div>
           <div className="column">
             <figure>
