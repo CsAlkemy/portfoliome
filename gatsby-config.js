@@ -60,11 +60,16 @@ module.exports = {
         theme_color: `#a2466c`,
         display: `standalone`,
         icon: `src/images/icons.png`,
+        crossOrigin: `use-credentials`,
       },
     },
 
     {
       resolve: `gatsby-plugin-offline`,
+      options: {
+        workboxConfig: {
+        },
+      },
     },
   ],
 };
