@@ -2,7 +2,7 @@ import React from "react";
 
 import "./style.scss";
 import heroImage from '../images/hridoyProfile.png'
-import Resume from '../images/ALKEMY HOSSAIN CV.pdf'
+import Resume from '../images/AlkemyHossainResume.pdf'
 
 const indexAbout = (props) => (
   <section className="hero is-medium primaryColor">
